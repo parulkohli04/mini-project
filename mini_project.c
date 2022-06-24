@@ -40,7 +40,7 @@ void main()
         fprintf(stderr, "\nError opening file\n");
         exit (1);
     }
-   // while(fread(&e1,sizeof(struct employee),1,empinfo))
+    printf("contents in file:\n");
     printf("\nname:%s\nid=%d\nmonthly salary:%d\nhours worked%dhrs",e1.name,e1.id,e1.details.monthly_salary,e1.details.hours_worked);
     printf("\n\nname:%s\nid=%d\nmonthly salary:%d\nhours worked%dhrs",e2.name,e2.id,e2.details.monthly_salary,e2.details.hours_worked);
     
